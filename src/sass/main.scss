@@ -52,12 +52,18 @@ header{
     border-radius: 2px;
 
     .card-header{
-      .profile-image{
+      padding: 15px;
+
+      .profile-img{
+        background: green;
         display: inline-block;
+        height: 25px;
+        width: 25px;
       }
       .profile-info{
         display: inline-block;
         .name{
+          background: red;
           font-size: 14px;
           color: #111;
           font-weight: 700;
@@ -67,7 +73,9 @@ header{
           color: 111;
         }
       }
-      .time{
+      .time {
+        float: right;
+        font-size: 12px;
         display: inline-block;
       }
     }
